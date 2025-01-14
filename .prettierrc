@@ -1,0 +1,14 @@
+{
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "arrowParens": "avoid",
+  "parser": "flow",
+  "endOfLine": "auto",
+  "eol": "crlf",
+  "presets": [
+    "react",
+    "es2015",
+    "stage-2"
+  ]
+}

@@ -1,0 +1,11 @@
+.ghost {
+    background: lightblue !important;
+}
+
+.cursor{
+    cursor: pointer !important
+}
+.flexDisplay {
+    display: flex;
+    gap: 8px;
+}

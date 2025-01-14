@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: local('SVN-Gilroy'), url(assets/fonts/SVN-Gilroy_Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy-Italic';
+    font-weight: 600;
+    src: local('SVN-Gilroy-Italic'), url(assets/fonts/SVN-Gilroy_Black_Italic.otf) format('opentype');
+}
+body {
+  margin: 0;
+  font-family: 'SVN-Gilroy' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
+}
+html {
+  height: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root{
+  height: 100%;
+  font-family: 'SVN-Gilroy' !important;
+}
+
+.searchView{
+  border-radius: unset !important;
+}
